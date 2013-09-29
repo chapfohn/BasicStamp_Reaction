@@ -11,7 +11,7 @@ DEBUG   "Press and hold pushbutton.", CR, ' Display reaction instructions.
 
 DO ' Begin main loop.
   DO ' Nested loop repeats...
-    LOOP UNTIL IN3 = 1 ' until pushbutton press.
+  LOOP UNTIL IN3 = 1 ' until pushbutton press.
     LOW 14 ' Bi-color LED red.
     HIGH 15
     PAUSE 1000 ' Delay 1 second.
